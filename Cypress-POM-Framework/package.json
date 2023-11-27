@@ -1,0 +1,31 @@
+{
+  "name": "cypress-pom-framework",
+  "version": "1.0.0",
+  "description": "Cypress POM Framework",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:electron": "cypress run --browser electron",
+    "cy:run-dashboard": "cypress run --record --key b5244950-9e60-4e06-84f7-aae669b4de47",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+  },
+  "keywords": [
+    "Cypress",
+    "Automation",
+    "Framework",
+    "POM",
+    "Dashboard",
+    "Page",
+    "Object",
+    "Model"
+  ],
+  "author": "Dan Good",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.0",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^2.7.1"
+  }
+}
